@@ -1,0 +1,26 @@
+.offwhite{
+    background-color: #fbfbfb;
+}
+
+.bg-muted {
+    background-color:#f4f4f5;
+  }
+
+  .text-primary{
+    color: hsl(240, 4.8%, 12.4%);
+  }
+
+  .text-muted-foreground{
+    color: #74747d;
+  }
+
+  .react-datepicker-wrapper {
+    display: block;}
+
+    .react-time-picker__wrapper {
+      border: none;
+      }
+
+      .react-time-picker__button:enabled:hover .react-time-picker__button__icon{
+        stroke: #28292a;
+      }
