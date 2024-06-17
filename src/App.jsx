@@ -1,16 +1,15 @@
-// Layout.jsx
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import { Outlet } from 'react-router-dom';
+import './App.css';
 
-import './App.css'; 
 const App = () => {
   return (
-    <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr] ">
+    <div className="grid min-h-screen w-full md:grid-cols-[260px_1fr] lg:grid-cols-[280px_1fr] mt-4 sm:mt-0">
       <Sidebar />
-      <div className="flex flex-col">
+      <main className="flex flex-col">
         <Outlet />
-      </div>
+      </main>
     </div>
   );
 }

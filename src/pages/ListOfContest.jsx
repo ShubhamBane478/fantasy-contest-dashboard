@@ -12,7 +12,7 @@ const ListOfContest = () => {
   }, []);
 
   return (
-    <div className="bg-white px-6 py-6 lg:px-8">
+    <div className="bg-white px-4 py-6 lg:px-8">
       
       <div className="mx-auto mt-6 ">
         <ContestList contests={contests} />
